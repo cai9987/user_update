@@ -1,7 +1,3 @@
-"""test_login.py"""
-# -*-coding:utf-8 -*-
-# Auothor:yue_luo
-
 # 导包
 import unittest
 from time import sleep

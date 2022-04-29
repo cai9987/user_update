@@ -17,7 +17,7 @@ class GetDriver:
             cls.driver.maximize_window()
             cls.driver.get(page.url)
             sleep(5)
-            cls.driver.add_cookie(page.cookies)
+            cls.driver.add_cookie({"name":"token","value":"2dfc33e02dec5dfeaccbb309d151197bbaa0157f"})
             cls.driver.refresh()
             sleep(10)
         return cls.driver

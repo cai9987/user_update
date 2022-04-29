@@ -1,8 +1,38 @@
 {
     "login_001":{
-        "username":"15018248542@163.com",
+        "username":"",
         "password":"123456",
-        "result":"密码不能为空",
+        "result":"请输入账号登录",
+        "flag":false,
+        "num":1
+    },"login_002":{
+        "username":"15018248542@163.com",
+        "password":"",
+        "result":"请输入密码",
+        "flag":false,
+        "num":1
+    },"login_003":{
+        "username":"1501824854@163.com",
+        "password":"123456",
+        "result":"该账号尚未注册",
+        "flag":false,
+        "num":1
+    },"login_004":{
+        "username":"15018248542@163.com",
+        "password":"12345",
+        "result":"输入密码错误",
+        "flag":false,
+        "num":1
+    },"login_005":{
+        "username":"@163.com",
+        "password":"123456",
+        "result":"邮箱输入有误",
+        "flag":false,
+        "num":1
+    },"login_006":{
+        "username":"1 5018248542@163.com",
+        "password":"123456",
+        "result":"不能输入空格",
         "flag":false,
         "num":1
     }

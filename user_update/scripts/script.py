@@ -61,3 +61,4 @@ class TestLogin(unittest.TestCase):
             self.assertEqual(msg, result)
         except:
             self.login.page_get_screenshot()
+            raise

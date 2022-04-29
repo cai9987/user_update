@@ -20,6 +20,9 @@ class PageLogin(Base):
     def page_err_text(self):
         return self.base_get_text(page.login_err_text)
 
+    def page_err_up_text(self):
+        return self.base_get_text(page.login_err_up_text)
+
     def page_login_if_quit(self):
         return self.base_if_success(page.login_link)
 
