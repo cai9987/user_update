@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 
-url = "http://test.zaitakugeek.cn:8080/home"
+url = "http://test.zaitakugeek.cn:8080/login"
 
 login_link = By.CSS_SELECTOR,'.el-button--mini > span'
 login_input_username = By.XPATH,'html/body/div[1]/div/div[2]/div/form/div/div[1]/div/div/div[1]/input'

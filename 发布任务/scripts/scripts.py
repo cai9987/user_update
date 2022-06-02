@@ -2,10 +2,9 @@ from time import sleep
 
 from parameterized import parameterized
 import unittest
-
-from 登录模块.base.get_driver import GetDriver
-from 登录模块.page.page import PageLogin
-from 登录模块.read_json.read_json import ReadJson
+from 发布任务.base.get_driver import GetDriver
+from 发布任务.page.page import PageLogin
+from 发布任务.read_json.read_json import ReadJson
 
 
 def get_data():
